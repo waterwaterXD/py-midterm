@@ -1,0 +1,6 @@
+students=set(['John','Mary','Tina','Fiona','Claire','Eva','Ben','Bill','Bert'])
+English = set(['John','Mary','Fiona','Claire','Ben','Bill'])
+Math = set(['Mary','Fiona','Claire','Eva','Ben'])
+print("英文與數學都及格 ",English & Math)
+print("數學不及格 ", students -Math)
+print("英文及格且數學不及格 ",English &  students -Math)
